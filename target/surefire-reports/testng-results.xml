@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-12T19:00:04 GMT-06:00" name="Suite" finished-at="2022-12-12T19:00:40 GMT-06:00" duration-ms="36445">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" name="submitOrder" class="Hexaware.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="Error Handling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:Hexaware.tests.ErrorValidationsTest@47f9738]" name="LoginErrorValidation" class="Hexaware.tests.ErrorValidationsTest"/>
+      </group> <!-- Error Handling -->
+    </groups>
+    <test started-at="2022-12-12T19:00:04 GMT-06:00" name="Error Validations Test" finished-at="2022-12-12T19:00:27 GMT-06:00" duration-ms="23164">
+      <class name="Hexaware.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Hexaware.tests.ErrorValidationsTest@47f9738]" started-at="2022-12-12T19:00:04 GMT-06:00" name="launchApplication" finished-at="2022-12-12T19:00:14 GMT-06:00" duration-ms="10164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Hexaware.tests.ErrorValidationsTest@47f9738]" started-at="2022-12-12T19:00:14 GMT-06:00" name="LoginErrorValidation" finished-at="2022-12-12T19:00:15 GMT-06:00" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hexaware.tests.ErrorValidationsTest@47f9738]" started-at="2022-12-12T19:00:15 GMT-06:00" name="tearDown" finished-at="2022-12-12T19:00:15 GMT-06:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Hexaware.tests.ErrorValidationsTest@47f9738]" started-at="2022-12-12T19:00:15 GMT-06:00" name="launchApplication" finished-at="2022-12-12T19:00:21 GMT-06:00" duration-ms="6054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Hexaware.tests.ErrorValidationsTest@47f9738]" started-at="2022-12-12T19:00:21 GMT-06:00" name="ProductErrorValidation" finished-at="2022-12-12T19:00:24 GMT-06:00" duration-ms="3457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hexaware.tests.ErrorValidationsTest@47f9738]" started-at="2022-12-12T19:00:24 GMT-06:00" name="tearDown" finished-at="2022-12-12T19:00:27 GMT-06:00" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Hexaware.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2022-12-12T19:00:04 GMT-06:00" name="Submit Order Test" finished-at="2022-12-12T19:00:40 GMT-06:00" duration-ms="36445">
+      <class name="Hexaware.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:04 GMT-06:00" name="launchApplication" finished-at="2022-12-12T19:00:14 GMT-06:00" duration-ms="9995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:14 GMT-06:00" name="submitOrder" data-provider="getData" finished-at="2022-12-12T19:00:19 GMT-06:00" duration-ms="4601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Angela13, product=ZARA COAT 3, email=netzari_limas@hotmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:19 GMT-06:00" name="tearDown" finished-at="2022-12-12T19:00:21 GMT-06:00" duration-ms="2448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:21 GMT-06:00" name="launchApplication" finished-at="2022-12-12T19:00:26 GMT-06:00" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:26 GMT-06:00" name="submitOrder" data-provider="getData" finished-at="2022-12-12T19:00:31 GMT-06:00" duration-ms="4445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Angela13, product=ADIDAS ORIGINAL, email=netzari_limas@hotmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:31 GMT-06:00" name="tearDown" finished-at="2022-12-12T19:00:33 GMT-06:00" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:33 GMT-06:00" name="launchApplication" finished-at="2022-12-12T19:00:39 GMT-06:00" duration-ms="5496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:39 GMT-06:00" name="OrderHistoryTest" finished-at="2022-12-12T19:00:40 GMT-06:00" depends-on-methods="Hexaware.tests.SubmitOrderTest.submitOrder" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hexaware.tests.SubmitOrderTest@32c726ee]" started-at="2022-12-12T19:00:40 GMT-06:00" name="tearDown" finished-at="2022-12-12T19:00:40 GMT-06:00" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Hexaware.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
